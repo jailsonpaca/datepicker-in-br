@@ -72,7 +72,7 @@ function DateBody(props) {
     titleCell: function titleCell(date) {
       return formatValue(date, {
         locale: locale,
-        format: 'YYYY-MM-DD',
+        format: 'DD/MM/YYYY',
         generateConfig: generateConfig
       });
     },
